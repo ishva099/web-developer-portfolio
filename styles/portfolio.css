@@ -31,6 +31,19 @@
     color: #FFFFFF;
     padding: 18px 35px;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: normal;
+}
 
 
 /* header */
@@ -38,6 +51,7 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+
 
 }
 
@@ -101,4 +115,36 @@ nav ul{
 .banner-profile-picture{
     width: 584px;
     height: 676px;
+}
+
+
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 114px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-size: 20px;
+}
+
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
 }
