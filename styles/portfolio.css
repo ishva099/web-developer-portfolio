@@ -149,7 +149,7 @@ main section{
 }
 
 .item-title{
-    font-size: 20px;
+    font-size: 20px; 
 }
 
 .item-description{
@@ -178,3 +178,45 @@ main section{
     gap: 24px;
 }
 
+
+/* resume section styles */
+
+.resume{
+   margin-left: 116px;
+   margin-right: 116px;
+}
+
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 10px;
+
+}
+.experience-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 20px;
+}
+
+.experience-description{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 30px;
+}
+
+.resume-download-cv-btn{
+    margin-top: 50px;
+}
